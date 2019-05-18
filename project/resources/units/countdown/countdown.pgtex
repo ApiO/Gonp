@@ -1,0 +1,9 @@
+{
+	"type" : "ATLAS",
+	"regions" : {
+		"go" : { "file": "units/countdown/img/go.png" },
+		"1"   : { "file": "units/countdown/img/1.png" },
+		"2"   : { "file": "units/countdown/img/2.png" },
+		"3" 	: { "file": "units/countdown/img/3.png" }
+	}
+}

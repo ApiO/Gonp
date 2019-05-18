@@ -1,0 +1,16 @@
+@import "units/countdown/countdown#default"
+{
+	"sprites" : {
+		"default" : {
+			"node" : "root",
+			"template" : "units/countdown/countdown",
+			"order" : 1
+		}
+	},
+	"animations" : {
+		"set" : "units/countdown/countdown",
+		"bones" : {
+			"root" : "root"
+		}
+	}
+}

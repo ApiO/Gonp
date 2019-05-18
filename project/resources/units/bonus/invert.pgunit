@@ -1,0 +1,16 @@
+@import "units/bonus/bonus#default"
+{
+	"sprites" : {
+		"default" : {
+			"node" : "default",
+			"template" : "units/bonus/invert",
+			"order" : 1
+		}
+	},
+	"animations" : {
+		"set" : "units/bonus/bonus",
+		"bones" : {
+			"default" : "default"
+		}
+	}
+}

@@ -1,0 +1,12 @@
+
+le changement de frame dans l'anim de marche pas au runtime ....
+
+Multi player
+
+	in Game must avec array<Player>
+		Player players[2];
+							=> refacto: goal + wall dans struct "arena" par user
+		u64    walls[2];
+
+
+arenas shape according to num users: no sé ! brain fuck needed

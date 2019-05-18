@@ -1,0 +1,20 @@
+{
+	"nodes" : {
+		"root" : {}
+	},
+	"actors" : {
+		"hitbox" : {
+			"node" : "root",
+			"actor" : "units/ball/ball_hitbox",
+			"translation" : [0, 0]
+		}
+	},
+	"sprites" : {
+		"ball" : {
+			"node" : "root",
+			"template" : "units/ball/ball",
+			"translation" : [0, 0],
+			"order" : 0
+		}
+	}
+}

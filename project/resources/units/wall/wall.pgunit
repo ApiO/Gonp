@@ -1,0 +1,18 @@
+{
+	"nodes" : {
+		"root" : {}
+	},
+	"actors" : {
+		"hitbox" : {
+			"node" : "root",
+			"actor" : "units/wall/wall_hitbox"
+		}
+	},
+	"sprites" : {
+		"wall" : {
+			"node" : "root",
+			"template" : "units/wall/wall",
+			"order" : 0
+		}
+	}
+}

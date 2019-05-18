@@ -1,0 +1,23 @@
+{
+	"fonts"  : [
+		"fonts/consolas.24/consolas.24",
+		"fonts/arial.black.72/arial.black.72",
+		"fonts/kristen.itc.36/kristen.itc.36"
+	],
+	"units" : [
+		"units/ball/ball",
+		"units/player/player",
+		"units/wall/wall",
+		"units/goal/goal1",
+		"units/goal/goal2",
+		"units/bonus/invert",
+		"units/bonus/revert",
+		"units/bonus/split",
+		"units/bonus/accelerate",
+		"units/bonus/disco",
+		"units/bonus/nuke",
+		"units/bonus/contract",
+		"units/bonus/extend",
+		"units/countdown/countdown"
+	]
+}

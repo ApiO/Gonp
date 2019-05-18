@@ -1,0 +1,11 @@
+{
+  "template": "platform",
+  "shapes": {
+    "shape_0": {
+      "template": "player",
+      "material": "solid",
+      "shape": "units/player/player_hitbox",
+      "translation": [ -15, -80 ]
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+"units": {
+	"default": {
+		"nodes": {
+			"root": { },
+			"default": { "parent": "root"}
+		}
+	}
+},
+"sprites": {
+	"default": {
+		"frames": {
+			"default": { "width": 42, "height" :42, "texture": "default" }
+		},
+		"setup_frame": "default"
+	}
+},
+"animsets": {
+	"default": {
+		"tracks": {
+			"bone": {
+				"default": {}
+			},
+			"sprite": {
+			},
+			"event": {
+			}
+		},
+		"animations": {
+			"move_left": {
+				"bone": {
+					"default": {
+						"translation": [
+							{"time": 0, "value": [43, 0], "curve": "STEPPED"},
+							{"time": 0.0333, "value": [43, 0]},
+							{"time": 0.3333, "value": [0, 0], "curve": "STEPPED"},
+							{"time": 0.4666, "value": [0, 0]}
+						],
+						"rotation": [
+							{"time": 0, "value": 0, "curve": "STEPPED"},
+							{"time": 0.0333, "value": 0},
+							{"time": 0.1666, "value": -20},
+							{"time": 0.3333, "value": 0, "curve": "STEPPED"},
+							{"time": 0.4666, "value": 0}
+						]
+					}
+				}
+			},
+			"move_right": {
+				"bone": {
+					"default": {
+						"translation": [
+							{"time": 0, "value": [-43, 0], "curve": "STEPPED"},
+							{"time": 0.0333, "value": [-43, 0]},
+							{"time": 0.3333, "value": [0, 0], "curve": "STEPPED"},
+							{"time": 0.4666, "value": [0, 0]}
+						],
+						"rotation": [
+							{"time": 0, "value": 0, "curve": "STEPPED"},
+							{"time": 0.0333, "value": 0},
+							{"time": 0.1666, "value": 20},
+							{"time": 0.3333, "value": 0, "curve": "STEPPED"},
+							{"time": 0.4666, "value": 0}
+						]
+					}
+				}
+			},
+			"remove": {
+				"bone": {
+					"default": {
+					"scale": [
+							{"time": 0, "value": [1, 1]},
+							{"time": 0.2666, "value": [0, 0]}
+						]
+					}
+				}
+			},
+			"spawn_left": {
+				"bone": {
+					"default": {
+						"translation": [
+							{"time": 0, "value": [-100, 0]},
+							{"time": 0.3333, "value": [0, 0]}
+						],
+						"rotation": [
+							{"time": 0, "value": 0},
+							{"time": 0.0666, "value": 90},
+							{"time": 0.1333, "value": 180},
+							{"time": 0.2, "value": 270},
+							{"time": 0.3333, "value": 0, "curve": "STEPPED"},
+							{"time": 0.5, "value": 0}
+						],
+					"scale": [
+							{"time": 0, "value": [0, 0]},
+							{"time": 0.3333, "value": [1, 1], "curve": "STEPPED"},
+							{"time": 0.5, "value": [1, 1]}
+						]
+					}
+				}
+			},
+			"spawn_right": {
+				"bone": {
+					"default": {
+						"translation": [
+							{"time": 0, "value": [100, 0]},
+							{"time": 0.3333, "value": [0, 0]}
+						],
+						"rotation": [
+							{"time": 0, "value": 0},
+							{"time": 0.0666, "value": 90},
+							{"time": 0.1333, "value": 180},
+							{"time": 0.2, "value": 270},
+							{"time": 0.3333, "value": 0, "curve": "STEPPED"},
+							{"time": 0.5, "value": 0}
+						],
+					"scale": [
+							{"time": 0, "value": [0, 0]},
+							{"time": 0.3333, "value": [1, 1], "curve": "STEPPED"},
+							{"time": 0.5, "value": [1, 1]}
+						]
+					}
+				}
+			},
+			"use": {
+				"bone": {
+					"default": {
+						"translation": [
+							{"time": 0, "value": [0, 0]},
+							{"time": 0.2666, "value": [0, -100]}
+						],
+						"rotation": [
+							{"time": 0, "value": 0},
+							{"time": 0.0333, "value": 45},
+							{"time": 0.0666, "value": 90},
+							{"time": 0.1333, "value": 180},
+							{"time": 0.2, "value": 270},
+							{"time": 0.2666, "value": 360},
+							{"time": 0.5333, "value": 0}
+						],
+					"scale": [
+							{"time": 0, "value": [1, 1]},
+							{"time": 0.0333, "value": [0.399, 0.399]},
+							{"time": 0.2666, "value": [3, 3]},
+							{"time": 0.5333, "value": [0, 0]}
+						]
+					}
+				}
+			}
+		}
+	}
+}
+}

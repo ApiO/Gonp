@@ -1,0 +1,13 @@
+{
+	"type" : "ATLAS",
+	"regions" : {
+		"accelerate" : { "file": "units/bonus/img/accelerate.png" },
+		"contract"	 : { "file": "units/bonus/img/contract.png" },
+		"disco"		 : { "file": "units/bonus/img/disco.png" },
+		"extend"		 : { "file": "units/bonus/img/extend.png" },
+		"invert"		 : { "file": "units/bonus/img/invert.png" },
+		"nuke"		 : { "file": "units/bonus/img/nuke.png" },
+		"revert"		 : { "file": "units/bonus/img/revert.png" },
+		"split"			 : { "file": "units/bonus/img/split.png" }
+	}
+}

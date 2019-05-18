@@ -1,0 +1,11 @@
+{
+  "nodes": {
+    "root": {}
+  },
+  "actors": {
+    "goal": {
+      "node": "root",
+      "actor": "units/goal/goal1"
+    }
+  }
+}

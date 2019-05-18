@@ -1,0 +1,10 @@
+{
+  "template": "static",
+  "shapes": {
+    "shape_0": {
+      "template": "player1_goal",
+      "material": "solid",
+      "shape": "units/goal/goal"
+    }
+  }
+}

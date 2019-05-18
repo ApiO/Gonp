@@ -1,0 +1,9 @@
+{
+	"setup_frame" : "3",
+	"frames" : {
+		"3"	: { "texture" : "units/countdown/countdown#3" },
+		"2"	: { "texture" : "units/countdown/countdown#2" },
+		"1"	: { "texture" : "units/countdown/countdown#1" },
+		"go"	: { "texture" : "units/countdown/countdown#go" }
+	}
+}

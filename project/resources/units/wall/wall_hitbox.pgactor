@@ -1,0 +1,11 @@
+{
+	"template" : "static",
+	"shapes" : {
+		"hitbox" : {
+			"template" : "wall",
+			"material" : "solid",
+			"shape" : "units/wall/wall_hitbox",
+			"translation" : [0, -2]
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+  "nodes": {
+    "root": {}
+  },
+  "sprites": {
+    "main": {
+      "node": "root",
+      "template": "units/player/player",
+      "order": 0
+    }
+  },
+  "actors": {
+    "main": {
+      "node": "root",
+      "actor": "units/player/player_hitbox"
+    }
+  }
+}

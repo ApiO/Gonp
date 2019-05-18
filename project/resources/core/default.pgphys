@@ -1,0 +1,56 @@
+{
+	"ppm": 100,
+	
+	"materials" : {
+		"solid" : {
+			"density"		: 0,
+			"friction"		: 1,
+			"restitution"	: 1
+		}
+	},
+	
+	"actors" : {
+		"static"		: { "dynamic" : false, "kinematic" : false },
+		"platform" 	: { "dynamic" : false, "kinematic" : true },
+    	"ball"			: { "dynamic" : true,  "kinematic" : false, "disable_gravity": true }
+	},
+
+	"collision_types" : ["wall", "player", "ball", "player1_goal", "player2_goal", "player3_goal", "player4_goal", "player5_goal", "player6_goal"],
+
+	"collision_filters" : {
+		"wall" 					: { "is" : ["wall"], 				"collides_with" : ["ball"] },
+		"player" 				: { "is" : ["player"], 				"collides_with" : ["ball"] },
+		"player1_goal" 	: { "is" : ["player1_goal"], 	"collides_with" : ["ball"] },
+		"player2_goal" 	: { "is" : ["player2_goal"], 	"collides_with" : ["ball"] },
+		"player3_goal" 	: { "is" : ["player3_goal"], 	"collides_with" : ["ball"] },
+		"player4_goal" 	: { "is" : ["player4_goal"], 	"collides_with" : ["ball"] },
+		"player5_goal" 	: { "is" : ["player5_goal"], 	"collides_with" : ["ball"] },
+		"player6_goal" 	: { "is" : ["player6_goal"], 	"collides_with" : ["ball"] },
+		"ball" 					: {
+			"is" : ["ball"], 
+			"collides_with" : [
+				"wall", 
+				"player", 
+				"player1_goal", 
+				"player2_goal", 
+				"player3_goal", 
+				"player4_goal", 
+				"player5_goal", 
+				"player6_goal"
+			] 
+		}
+	},
+
+	"shapes" : {
+		"wall"					: { "collision_filter" : "wall" },
+		"player" 				: { "collision_filter" : "player"},
+		"player1_goal" 	: { "collision_filter" : "player1_goal", "trigger" : true },
+		"player2_goal" 	: { "collision_filter" : "player2_goal", "trigger" : true },
+		"player3_goal" 	: { "collision_filter" : "player3_goal", "trigger" : true },
+		"player4_goal" 	: { "collision_filter" : "player4_goal", "trigger" : true },
+		"player5_goal" 	: { "collision_filter" : "player5_goal", "trigger" : true },
+		"player6_goal" 	: { "collision_filter" : "player6_goal", "trigger" : true },
+		"ball" 					: { "collision_filter" : "ball" },
+		"ground" 				: { "collision_filter" : "ground" }
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"template" : "ball",
+	"shapes" : {
+		"hitbox" : {
+			"template" : "ball",
+			"material" : "solid",
+			"shape" : "units/ball/ball_hitbox"
+		}
+	}
+}
